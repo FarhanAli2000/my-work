@@ -13,8 +13,6 @@ import {
 } from "../../imagepath";
 import AOS from "aos";
 import "aos/dist/aos.css";
-// import image from "./Group 164.png";
-// import image2 from "./Help Section.png";
 import gmail from "./gmail.png";
 import whatapp from "./whatapp.png";
 import googlebutton from "./Google button.png";
@@ -31,38 +29,10 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer">
-        {/* <div className="container">
-        <div className="stay-tuned">
-          <h3>Stay Tuned With Us</h3>
-          <p>
-            Subcribe to our newletter and never miss our latest news and
-            promotions. Our newsletter is sent once a week, every thursday.
-          </p>
-          <form>
-            <div className="form-group">
-              <div className="group-img">
-                <i className="feather-mail"></i>
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Enter Email Address"
-                />
-              </div>
-            </div>
-            <button className="btn btn-primary" type="submit">
-              {" "}
-              Subscribe
-            </button>
-          </form>
-        </div>
-      </div> */}
-
-        {/* footer_top */}
-
         <div className="topfooter_wrapper container">
           <div className="topfooter_container1">
             <h4 className="topfooter_heading1">GET KSA4SALES APP</h4>
-            <div className="topfooter_soc   d-flex flex-column">
+            <div className="topfooter_soc d-flex flex-column">
               <div>
                 <h4 className="topfooter_heading2">
                   The best for is You just one click away
@@ -77,11 +47,10 @@ const Footer = () => {
                     height: "50px",
                   }}
                 >
-                  {" "}
-                  <img src={googlebutton} alt="" />
+                  <img src={googlebutton} alt="Google Button" />
                 </i>
                 <i className="topfooter-socialimg">
-                  <img src={appstore} alt="" />
+                  <img src={appstore} alt="App Store" />
                 </i>
               </div>
             </div>
@@ -89,35 +58,34 @@ const Footer = () => {
           <div className="topfooter_qrcodescanner">
             <div className="qrcodescanner_socs">
               <i className="topfooter_arrow">
-                <img src={arrowimage} alt="" />
+                <img src={arrowimage} alt="Arrow" />
               </i>
               <i className="topfooterscanner">
-                <img src={scanner} alt="" />
+                <img src={scanner} alt="Scanner" />
               </i>
             </div>
             <div className="para_div">
               <p className="qrcodepara">
-                Scan the Qr to <br />
+                Scan the QR to <br />
                 get the app
               </p>
             </div>
           </div>
           <div className="topfooter-mobileimage">
             <i className="topfooter-mob">
-              <img src={mobileimage} alt="" />
+              <img src={mobileimage} alt="Mobile Image" />
             </i>
           </div>
         </div>
 
-        {/* footer mid */}
-
-        <div className="footermid-wrapper ">
+        {/* Footer Mid */}
+        <div className="footermid-wrapper">
           <div className="footermid-container container">
             <h3 className="footermid-heading">We are always here to help</h3>
             <div className="footermidinfo-container">
               <div className="midfooterinfo">
                 <i className="midfooterinfo-icon">
-                  <img src={gmail} alt="" style={{ width: "3.5rem" }} />
+                  <img src={gmail} alt="Gmail" style={{ width: "3.5rem" }} />
                 </i>
                 <div className="footermidgmail">
                   <h4 className="footermidgmailheading">Email support</h4>
@@ -128,7 +96,7 @@ const Footer = () => {
               </div>
               <div className="midfooterinfo">
                 <i className="midfooterinfo-icon">
-                  <img src={whatapp} alt="" style={{ width: "3.5rem" }} />
+                  <img src={whatapp} alt="WhatsApp" style={{ width: "3.5rem" }} />
                 </i>
                 <div className="footermidgmail">
                   <h4 className="footermidgmailheading">Phone Number</h4>
@@ -141,32 +109,31 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="footer-top aos  footer_shadow" data-aos="fade-up">
+        <div className="footer-top aos footer_shadow" data-aos="fade-up">
           <div className="container">
             <div className="row" style={{ gap: "1.7rem" }}>
               <div className="col-lg-3 col-md-6">
                 <div className="footer-widget">
                   <div className="footer-logo">
                     <Link to="#">
-                      <img src={KSA} alt="logo" />
+                      <img src={KSA} alt="KSA Logo" />
                     </Link>
                   </div>
                   <div className="footer-content">
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt et magna aliqua.{" "}
+                      sed do eiusmod tempor incididunt et magna aliqua.
                     </p>
-                    <h3>Donwload Our App</h3>
+                    <h3>Download Our App</h3>
                     <div
                       className="socialicons "
                       style={{ marginBottom: "2rem" }}
                     >
                       <i className="footer_socialsIcons">
-                        <img src={googlebutton} />
+                        <img src={googlebutton} alt="Google Button" />
                       </i>
                       <i className="footer_socialsIcons">
-                        {" "}
-                        <img src={appstore} />
+                        <img src={appstore} alt="App Store" />
                       </i>
                     </div>
                   </div>
@@ -196,8 +163,7 @@ const Footer = () => {
               </div>
               <div className="col-lg-2 col-md-6">
                 <div className="footer-widget footer-menu">
-                  {/* <h2 className="footer-title">Quick links</h2> */}
-                  <ul class="col_2">
+                  <ul className="col_2">
                     <li>
                       <Link to="#">Property</Link>
                     </li>
@@ -221,13 +187,13 @@ const Footer = () => {
                   <h2 className="footer-title">My Account</h2>
                   <ul>
                     <li>
-                      <Link to="#">Account Infromation</Link>
+                      <Link to="#">Account Information</Link>
                     </li>
                     <li>
                       <Link to="#">My Listing</Link>
                     </li>
                     <li>
-                      <Link to="#">My Favourtite</Link>
+                      <Link to="#">My Favourite</Link>
                     </li>
                     <li>
                       <Link to="#">My Payment</Link>
@@ -266,9 +232,9 @@ const Footer = () => {
         </div>
         <div className="footer_end">
           <h6 className="footerend_para">
-            All Copy Right Reserved &copy;{" "}
+            All Copyright Reserved &copy;{" "}
             <span style={{ fontFamily: "'Inter', sans-serif" }}>2024</span>
-            -Ksa4sales
+            - Ksa4sales
           </h6>
         </div>
       </div>

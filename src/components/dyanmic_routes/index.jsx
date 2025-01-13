@@ -6,6 +6,7 @@ import tick from "./tick.png";
 import bullet from "./bullet.png";
 import profile from "./profileimage.png";
 
+
 import { FaWhatsapp } from "react-icons/fa";
 import { FaMobile } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -101,9 +102,9 @@ const Dynamic_Routes = () => {
               >
                 Home
               </button>
-              <icon>
+              <i>
                 <img src={arrow} alt="" />
-              </icon>
+              </i>
 
               <button
                 className="btn border me-2 mb-2 mb-sm-0"
@@ -111,27 +112,27 @@ const Dynamic_Routes = () => {
               >
                 Automotive
               </button>
-              <icon>
+              <i>
                 <img src={arrow} alt="" />
-              </icon>
+              </i>
               <button
                 className="btn border me-2 mb-2 mb-sm-0"
                 style={{ background: "#E9EEFF", fontWeight: "500" }}
               >
                 All Cities
               </button>
-              <icon>
+              <i>
                 <img src={arrow} alt="" />
-              </icon>
+              </i>
               <button
                 className="btn border  mb-sm-0"
                 style={{ background: "#E9EEFF", fontWeight: "500" }}
               >
                 Used Car for Sale
               </button>
-              <icon>
+              <i>
                 <img src={arrow} alt="" />
-              </icon>
+              </i>
 
               <button
                 className="btn border mb-2 mb-sm-0"
@@ -151,9 +152,9 @@ const Dynamic_Routes = () => {
                   border: "2px solid #2D4495",
                 }}
               >
-                <icon>
+                <i>
                   <img src={left} alt="left" />
-                </icon>
+                </i>
                 Previous
               </button>
               <button
@@ -164,9 +165,9 @@ const Dynamic_Routes = () => {
                   border: "2px solid #2D4495",
                 }}
               >
-                <icon>
+                <i>
                   <img src={right} alt="left" />
-                </icon>
+                </i>
                 Next
               </button>
             </div>
@@ -187,27 +188,27 @@ const Dynamic_Routes = () => {
           <div className="head2_wrapper">
             <div className="CategoryInfodiv_btn2container">
               <button className="  head2btn ">
-                <icon>
+                <i>
                   <img src={left} alt="leftarrow" />
-                </icon>{" "}
+                </i>{" "}
                 Favourite
               </button>
               <button className="  head2btn ">
-                <icon>
+                <i>
                   <img src={share} alt="share" />
-                </icon>
+                </i>
                 Share
               </button>
               <button className="   head2btn">
-                <icon>
+                <i>
                   <img src={report} alt="promote" />
-                </icon>
+                </i>
                 Promote
               </button>
               <button className="  head2btn ">
-                <icon>
+                <i>
                   <img src={report} alt="report" />
-                </icon>
+                </i>
                 Report
               </button>
             </div>
@@ -308,9 +309,9 @@ const Dynamic_Routes = () => {
                           <div className="col-md-4" key={columnIndex}>
                             {column.map((feature, index) => (
                               <p className="feature_para " key={index}>
-                                <icon className="second_tableIcon">
+                                <i className="second_tableIcon">
                                   <img src={tick} alt="tick" />
-                                </icon>
+                                </i>
                                 {feature}
                               </p>
                             ))}
@@ -405,9 +406,9 @@ const Dynamic_Routes = () => {
                           marginRight: "22px",
                         }}
                       >
-                        <icon>
+                        <i>
                           <FaMobile />
-                        </icon>{" "}
+                        </i>{" "}
                         phone
                       </button>
 
@@ -426,17 +427,17 @@ const Dynamic_Routes = () => {
                           height: "45px",
                         }}
                       >
-                        <icon>
+                        <i>
                           <FontAwesomeIcon icon={faPhone} />
-                        </icon>
+                        </i>
                         Call
                       </button>
 
                       <div>
                         <button className="whatsapp-button">
-                          <icon>
+                          <i>
                             <FaWhatsapp />
-                          </icon>
+                          </i>
                           whatsapp
                         </button>
                       </div>

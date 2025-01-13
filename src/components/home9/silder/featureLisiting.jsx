@@ -15,8 +15,8 @@ const FeatureLisiting=()=>{
         dots: true,
         nav: false,
         navText: [
-            '<i class="fa-solid fa-angle-left"></i>',
-            '<i class="fa-solid fa-angle-right"></i>',
+            '<i className="fa-solid fa-angle-left"></i>',
+            '<i className="fa-solid fa-angle-right"></i>',
         ],
   
         loop: true,

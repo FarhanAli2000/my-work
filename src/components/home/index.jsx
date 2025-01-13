@@ -237,21 +237,21 @@ const Home = () => {
         <section className="category-section">
           <div className="container">
             <div className="allMedia_Icons">
-              <icon>
+              <i>
                 <img src={xIcon} alt="Xicon" />
-              </icon>
-              <icon>
+              </i>
+              <i>
                 <img src={insta} alt="instragram" />
-              </icon>
-              <icon>
+              </i>
+              <i>
                 <img src={fb} alt="facebook" />
-              </icon>
-              <icon>
+              </i>
+              <i>
                 <img src={tiktok} alt="tiktok" />
-              </icon>
-              <icon>
+              </i>
+              <i>
                 <img src={whatapp} alt="whatapp" />
-              </icon>
+              </i>
             </div>
             <div className="section-heading">
               <div className="row align-items-center">
@@ -373,9 +373,9 @@ const Home = () => {
         <Footer />
         {/* Footer */}
 
-        {/* <div class="popup_cnt" id="my-popover">
-          <div class="img">
-            <div class="close_btn">X</div>
+        {/* <div className="popup_cnt" id="my-popover">
+          <div className="img">
+            <div className="close_btn">X</div>
             <img src={popup}   />
           </div>
         </div> */}
